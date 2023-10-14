@@ -39,4 +39,7 @@ public class UsuarioController {
         usuarioService.deleteUsuario(usuarioId);
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 522fedf7d97c10e067fcd6c446ec4089ac3460bf

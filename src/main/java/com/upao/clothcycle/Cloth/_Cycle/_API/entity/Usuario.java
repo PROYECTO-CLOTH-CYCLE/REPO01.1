@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 public class Usuario {
 
     @Id
+<<<<<<< HEAD
     @Column(name = "Usuario_Id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long usuarioId;
@@ -31,6 +32,24 @@ public class Usuario {
     }
 
     public Usuario(String nombre, String apellido, String numeroTelefonico, String correoElectronico, String contrasena) {
+=======
+    @Column(name = "U+suario_Id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long usuarioId;
+    @Column(name = "Nombre")
+    private String nombre;
+    @Column(name = "Apellido")
+    private String apellido;
+    @Column(name = "Telefono")
+    private String numeroTelefonico;
+    @Column(name = "Correo")
+    private String correoElectronico;
+    @Column(name = "Contraseña")
+    private String contrasena;
+
+    public Usuario(Long usuarioId, String nombre, String apellido, String numeroTelefonico, String correoElectronico, String contrasena) {
+        this.usuarioId = usuarioId;
+>>>>>>> 522fedf7d97c10e067fcd6c446ec4089ac3460bf
         this.nombre = nombre;
         this.apellido = apellido;
         this.numeroTelefonico = numeroTelefonico;
@@ -87,4 +106,8 @@ public class Usuario {
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 522fedf7d97c10e067fcd6c446ec4089ac3460bf
