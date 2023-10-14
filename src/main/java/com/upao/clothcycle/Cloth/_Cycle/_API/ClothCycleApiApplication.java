@@ -9,5 +9,4 @@ public class ClothCycleApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ClothCycleApiApplication.class, args);
 	}
-
 }
