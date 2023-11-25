@@ -5,14 +5,26 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.upao.proyecto</groupId>
+	<groupId>com.upao.proyecto</groupId>git clone https://github.com/PROYECTO-CLOTH-CYCLE/REPO01.1.git
+
 	<artifactId>CLOTH_CYCLE</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CLOTH_CYCLE</name>
 	<description>CLOTH_CYCLE</description>
+=======
+		<version>3.1.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.upao.clothcycle</groupId>
+	<artifactId>Cloth_Cycle_API</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Cloth_Cycle_API</name>
+	<description>Demo project for Spring Boot</description>
+>>>>>>> dcac2bcefe49504250a11549249c3ee8ad2d7334
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -27,6 +39,7 @@
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
@@ -37,6 +50,13 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+=======
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+>>>>>>> dcac2bcefe49504250a11549249c3ee8ad2d7334
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -48,6 +68,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
 				<configuration>
 					<excludes>
 						<exclude>
@@ -60,4 +81,20 @@
 		</plugins>
 	</build>
 
+=======
+			</plugin>
+		</plugins>
+	</build>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <mirrors>
+        <mirror>
+            <id>central</id>
+            <url>http://repo.maven.apache.org/maven2</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+</settings>
+>>>>>>> dcac2bcefe49504250a11549249c3ee8ad2d7334
 </project>
